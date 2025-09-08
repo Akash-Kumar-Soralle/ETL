@@ -1,5 +1,3 @@
-# ETL Project (SSIS)
-
 ## 📌 Overview
 This repository contains an ETL (Extract, Transform, Load) project developed using **SQL Server Integration Services (SSIS)**. The project demonstrates how to design, build, and execute ETL pipelines for moving and transforming data between source systems and target databases.
 
@@ -27,4 +25,15 @@ This repository contains an ETL (Extract, Transform, Load) project developed usi
    - Loads transformed data into a target SQL Server database for reporting and analysis.  
 
 ## 📊 Use Case Example
-- Example scenario: Moving raw sales data into a data warehouse, applying currency con
+- Example scenario: Moving raw sales data into a data warehouse, applying currency conversion, removing duplicates, and generating fact/dimension tables for reporting.  
+
+## 🚀 How to Run
+1. Clone this repository.  
+2. Open the `.dtproj` file in Visual Studio (SQL Server Data Tools).  
+3. Configure connection managers for your source and target databases.  
+4. Deploy and run the `.dtsx` packages in SSIS.  
+
+## 📈 Results
+- Automated ETL workflows reduce manual data processing.  
+- Clean and standardized data is ready for BI tools (Power BI, Tableau, etc.).  
+- Flexible design supports parameterization for multiple environments. 
